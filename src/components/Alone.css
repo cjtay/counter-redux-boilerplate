@@ -1,0 +1,20 @@
+.Alone {
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    display: block;
+    width: 500px;
+}
+
+.SubAlone {
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid black;
+    display: block;
+    width: 400px;
+}
+
+.Button {
+    padding: 5px;
+    margin: 5px;
+}
