@@ -7,18 +7,18 @@ import './Alone.css';
 const Counter = (props) => {
     return (
         <>
-            <div>{props.display}</div>
+            <div className='Title'>{props.display}</div>
             <div>Current Count: {props.counter}</div>
-            <div className="Alone">
+            <div className='Alone'>
                 <div>Counter Component</div>
-                <button className="Button" onClick={props.onAdd}>
+                <button className='Button' onClick={props.onAdd}>
                     Increment
                 </button>
-                <button className="Button" onClick={props.onMinus}>
+                <button className='Button' onClick={props.onMinus}>
                     Decrement
                 </button>
                 <button
-                    className="Button"
+                    className='Button'
                     onClick={() => {
                         props.onInput(10000);
                     }}
